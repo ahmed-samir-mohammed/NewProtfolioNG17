@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: rgb(33 33 33);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 10vw;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 3rem;
+    background-color: #ffffff20;
+    width: fit-content;
+    padding: 1rem;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #ffcc0023;
+    width: fit-content;
+    padding: 1rem;
+    span {
+        color: #ffcc00;
+        font-weight: bold;
+    }
+}
