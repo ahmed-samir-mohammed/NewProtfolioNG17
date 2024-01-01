@@ -6,7 +6,7 @@ import { HireMeComponent } from '../Components/hire-me/hire-me.component';
   selector: 'app-home',
   standalone: true,
   template: `
-    <div class='flex'>
+    <div class='p-4 flex flex-col justify-center h-[100vh] '>
       <app-hero />
       <app-hire-me />
     </div>
