@@ -1,3 +1,4 @@
+import { WorkCardComponent } from './../work-card/work-card.component';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,10 +6,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p class='font-inter font-medium'>Welcome to my corner of the digital world! </p>
-    <h1 class='font-inter font-medium'>I'm Ahmed Samir</h1>
-    <p class='font-inter font-medium'>A passionate Software Engineer specializing in <span>JavaScript.</span></p>
-    <p class='font-inter font-medium'>In crafting web experiences, I harness the power of cutting-edge technologies, particularly Angular for dynamic front-end development and Node.js for robust server-side solutions. Join me on this journey of innovation and creativity in the realm of web development!</p>
+    <div class="flex flex-col items-center h-[60vh] justify-center">
+      <h1 class='text-[4rem] font-hacked '>Ahmed Samir</h1>
+      <p class='text-center lg:w-[50%]'>I am a passionate web developer specializing in MEAN Stack. I have extensive experience in building web applications using MongoDB, Express.js, Angular, and Node.js, and I always strive to deliver innovative and efficient solutions.</p>
+    </div>
   `,
   styleUrl: './hero.component.scss'
 })
